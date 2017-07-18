@@ -1,0 +1,16 @@
+CACHE MANIFEST
+#ver:2017-7-17 21:06:39
+#plugin:4.8.1
+
+CACHE:
+/scripts/bundle.642dec9fa94defa8f8e2.js
+/scripts/vendor.abc8af88d0dc4373360e.js
+/scripts/manifest.7f25be226b041fc92f8f.js
+/scripts/styles.css
+/scripts/vendor.abc8af88d0dc4373360e.js.gz
+/scripts/bundle.642dec9fa94defa8f8e2.js.gz
+/scripts/../
+/
+
+NETWORK:
+*

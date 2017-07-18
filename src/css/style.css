@@ -1,0 +1,101 @@
+/*
+	Our Main Stylesheet.
+ */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
+
+body {
+	font-family: "Roboto", sans-serif;
+	background: #F7F8FA;
+	margin: 0;
+	padding: 0;
+}
+
+#root {
+	min-height: 100vh;
+}
+
+.component--appbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10;
+}
+
+.component--content {
+	padding-top: 100px;
+}
+
+:root {
+  --site-width: 980px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background: #F1F1F1;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: padding-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.component--menu-container {
+	background: white;
+	width: 100%;
+	padding-top: 10px;
+}
+
+.search-bar {
+	text-align: center;
+	width: 40%;
+	margin: 0 auto;
+}
+
+.point {
+	padding: 0;
+	border-radius: 20px;
+	transition: all 0.5s ease-in-out;
+	transform: scale(0.97);
+}
+.point:hover {
+	transform: scale(1);
+}
+
+.menu-bar {
+	display: flex;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.menu-list {
+	color: white;
+	margin: 0 auto;
+}
+
+.panel-button {
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: calc(100% - 64px);
+}
+
+/////////////////////////
+
+.shell-header {
+	color: #00bcd4;
+}
